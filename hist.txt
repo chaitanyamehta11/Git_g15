@@ -1,0 +1,50 @@
+  346  stat -c "%A %a %n" fork1.exe
+  347  chmod a+x fork1.exe
+  348  stat -c "%A %a %n" fork1.exe
+  349  ls -l fork1.exe
+  350  stat -c " Owner: %U Group: %G" fork1.exe
+  351  chown chaitanya2 fork1.exe
+  352  _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+  353  =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+  354  sudo adduser user2
+  355  chown user2 fork1.exe
+  356  sudo chown user2 fork1.exe
+  357  stat -c " Owner: %U Group: %G" fork1.exe
+  358  history
+  359  cd ..
+  360  clear
+  361  mkdir git_1
+  362  cd git_1
+  363  ls -a
+  364  cd ..
+  365  ls
+  366  cd git_1
+  367  ls -a
+  368  git --version
+  369  git init
+  370  ls -a
+  371  echo "g15 git starts" >g1.txt
+  372  git add gi.txt
+  373  git add g1.txt
+  374  git commit -m "Commiting g1"
+  375  git config --global
+  376  git config --global user.name "Chaitanya" "chaitanyamehta118@gmail.com"
+  377  git config --global user.user.email  "chaitanyamehta118@gmail.com"
+  378  git config --global user.name "Chaitanya"
+  379  git config --global user.user.email "chaitanyamehta118@gmail.com"
+  380  git commit -m "Commiting g1"
+  381  git commit --amend --reset-author
+  382  history
+  383  git commit -m "Commiting g1"
+  384  git config user.name
+  385  git config user.email
+  386  git config --global user.email "chaitanyamehta118@gmail.com"
+  387  git config user.email
+  388  git status
+  389  git log
+  390  history 30
+  391  mkdir hist.txt
+  392  history 50 >hist.txt
+  393  rmdir hist.txt
+  394  touch hist.txt
+  395  history 50 >hist.txt
